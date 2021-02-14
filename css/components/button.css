@@ -1,9 +1,9 @@
-.button:hover {
+.btn-main:hover {
     background-color: rgb(179, 179, 179) ;
     transform: scale(1.05);
 }
 
-.button { 
+.btn-main { 
     display: inline-block;
     color: #000;
     background-color: whitesmoke;
