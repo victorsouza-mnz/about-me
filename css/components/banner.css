@@ -5,4 +5,16 @@
     background-size: cover;
     border-bottom: 10px solid #6C9EEA;
     background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .box {
+    margin-bottom: 40px;
 }
