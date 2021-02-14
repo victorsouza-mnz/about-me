@@ -1,0 +1,17 @@
+.button:hover {
+    background-color: rgb(179, 179, 179) ;
+    transform: scale(1.05);
+}
+
+.button { 
+    display: inline-block;
+    color: #000;
+    background-color: whitesmoke;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0px;
+    transition: all 200ms ease;
+    font-size: 20px;
+    text-decoration: none;
+
+}
