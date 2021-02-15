@@ -7,3 +7,8 @@
     background-color: #6a57bf;
     box-shadow: 10px 10px 0px #FFF;
 }
+
+.main-project.-white {
+    border: 5px solid black;
+    background-color: #FFF;
+}
