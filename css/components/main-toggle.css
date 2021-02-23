@@ -1,0 +1,13 @@
+.main-toggle {
+    box-sizing: border-box;
+    height: 60px;
+    display: inline-block;
+    margin: 0 10px 0 25px;
+    padding-left: 15px;
+    border-left: 2px solid rgba(255, 255, 255, 0.466);
+
+}
+
+.main-toggle img {
+    height: 60px;
+}
