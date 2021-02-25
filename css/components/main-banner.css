@@ -1,12 +1,12 @@
 .main-banner {
-    background-image: url(../../assets/img/Nebula\ Blue.png);
+    background-image: url(../../assets/img/4.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #6C9EEA;
-    background-position: bottom;
+    background-position: top;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
@@ -17,4 +17,8 @@
 
 .main-banner .main-box {
     margin-bottom: 40px;
+}
+
+.main-banner .wrapper {
+    padding-top: 180px;
 }
