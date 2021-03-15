@@ -1,7 +1,21 @@
 .node-card{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin: 0 20px;
+}
+
+.node-card::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px;
+    width: 40px;
+    border-bottom: 3px dashed black;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 140px;
+    z-index: 1;
 }
 
 .node-card .title {
@@ -19,4 +33,15 @@
     border: 5px solid black;
     display: flex;
     align-items: center;
+}
+
+
+.node-card.-clean .logo {
+    padding : 0px;
+}
+
+
+.node-card.-whitegray .logo{
+    background-color: #626566;
+    
 }

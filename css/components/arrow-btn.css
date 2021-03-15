@@ -3,7 +3,8 @@
     width: 50px;
     background-color: #8D4998;
     box-shadow: 5px 5px 0px #000;
-    cursor : pointer
+    cursor : pointer;
+    outline: none;
 
 }
 
