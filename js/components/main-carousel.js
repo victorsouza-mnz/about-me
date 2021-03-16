@@ -12,3 +12,4 @@ btnLeft.addEventListener('click', e => {
     deslocamento += 100
     elements.style = `transform: translateX(${deslocamento}px)`
 })
+
